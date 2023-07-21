@@ -24,7 +24,7 @@
     font-weight: 700;
     line-height: 60px;
   }
-  .banner-text > button {
+  .banner-text .banner-btn {
     margin: 15px auto;
   }
   .banner-image {
@@ -33,6 +33,14 @@
   }
   .banner-image > img {
     width: 90%;
+  }
+  .collection-container {
+    margin: 30px 10px;
+  }
+  .item-list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px;
   }
 }
 
@@ -54,5 +62,11 @@
   }
   .banner-image > img {
     width: 95%;
+  }
+  .collection-container {
+    margin: 30px 15px;
+  }
+  .item-list {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
