@@ -159,3 +159,31 @@ nav {
   line-height: 28px;
 }
 /* featured section end */
+
+/* footer section */
+footer {
+  background: #0a0826;
+  padding: 30px;
+}
+.footer-heading {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.email,
+.copyright {
+  color: #d9dbe1;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 10px;
+}
+
+/* footer section end */
