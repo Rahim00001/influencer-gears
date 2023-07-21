@@ -47,6 +47,24 @@
     flex-wrap: wrap;
     gap: 20px;
   }
+  .featured-container {
+    margin: 10px 30px;
+    flex-direction: column;
+  }
+  .featured-img img {
+    width: 100%;
+  }
+  .featured-text {
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .featured-header {
+    line-height: 50px;
+  }
+  .featured-btn {
+    margin-left: 105px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -78,5 +96,16 @@
     margin: 10px 100px;
     gap: 50px;
     flex-wrap: wrap;
+  }
+  .featured-container {
+    margin: 10px 30px;
+    gap: 20px;
+  }
+  .featured-img img {
+    width: 100%;
+    padding-top: 25%;
+  }
+  .featured-header {
+    line-height: 50px;
   }
 }

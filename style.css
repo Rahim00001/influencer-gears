@@ -135,3 +135,27 @@ nav {
   font-weight: 700;
 }
 /* our collection section end */
+
+/* featured section */
+.featured-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 150px;
+}
+
+.featured-text {
+  width: 50%;
+  padding-top: 30px;
+}
+.featured-header {
+  color: #0a0826;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+.featured-desc {
+  color: #6c6c6c;
+  font-weight: 700;
+  line-height: 28px;
+}
+/* featured section end */
