@@ -35,3 +35,49 @@ nav {
   font-weight: 600;
 }
 /* nav styles end */
+
+/* banner styles */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+.banner-text {
+  width: 45%;
+}
+.banner-text > h1 {
+  color: #3a3a3a;
+  font-size: 3.1rem;
+  font-weight: 700;
+  line-height: 70px;
+}
+.banner-text > p {
+  color: #3a3a3a;
+  font-weight: 600;
+}
+.banner-text > button {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #e02c6d;
+  padding: 10px 20px;
+  margin: 15px 1px;
+  border: none;
+  border-radius: 30px;
+}
+.banner-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 545px;
+  background-image: url(./images/Circle\ design.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 41%;
+}
+/* banner styles end */
