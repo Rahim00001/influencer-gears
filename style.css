@@ -83,6 +83,18 @@ nav {
 /* banner styles end */
 
 /* our partner section */
+.partner-container {
+  margin: 10px 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.partner {
+  text-align: center;
+}
+/* our partner section end */
+
+/* our collection section */
 .collection-container {
   margin: 30px 100px;
   display: flex;
@@ -122,4 +134,4 @@ nav {
   font-size: 0.9rem;
   font-weight: 700;
 }
-/* our partner section end */
+/* our collection section end */
